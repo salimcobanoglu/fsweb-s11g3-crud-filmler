@@ -14,7 +14,9 @@ const MovieHeader = () => {
           className="myButton bg-green-700 hover:bg-green-600"
         >
           <i className="material-icons text-sm">&#xE147;</i>
-          <span>Yeni film ekle</span>
+          <Link to="/movies/add">
+            <span>Yeni film ekle</span>
+          </Link>
         </Link>
       </div>
     </div>
